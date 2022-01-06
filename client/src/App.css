@@ -1,0 +1,41 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+  color:black;
+}
+
+@media (max-width: 2740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #f8bbd0 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 2991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #f8bbd0 !important;
+  }
+}
+.tes {
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/gradient2.png');
+   background-repeat: no-repeat; 
+   background-size: cover;
+    background-position: center center;
+}
+.cs {
+  margin:10px;
+}
